@@ -1,0 +1,130 @@
+.body{
+    margin: 0px;
+}
+.top-div{
+    background-color: #1f2937;
+    height: 500px;
+    width: 1240px;
+}
+.header-logo{
+    display: inline-block;
+    color: #f9faf8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 13px;
+    margin-left: 210px;
+}
+.link-1
+{
+    display: inline-block;
+}
+.button-1{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 350px;
+    border: none;
+    height: 40px;
+    width: 80px;  
+    border-radius: 30px;
+    cursor: pointer; 
+    transition: background-color 0.5s;
+}
+.button-1:hover{
+    background-color: #5a78a3;
+}
+.link-2{
+    display: inline-block;
+}
+.button-2{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 20px;
+    border: none;
+    height: 40px;
+    width: 120px;  
+    border-radius: 30px; 
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+.button-2:hover{
+    background-color: #5a78a3;
+} 
+.flex{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-left: 210px;
+}
+.main-flex{
+    display: flex;
+    flex-direction: row;
+}
+.message-main{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 230px;
+}
+.message-des{
+    color: #f9faf8;
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 370px;
+    margin-top: 10px;
+} 
+.join-button{
+    display:block;
+} 
+.join{
+    background-color: #2326f3;
+    color: #e5e7eb;
+    font-size: 20px;
+    font-weight: 300;
+    height: 40px;
+    width: 120px;  
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s,
+                color 0.5s;
+    margin-top: 47px;
+} 
+.join:hover{
+    background-color: #5a5cff;
+} 
+.join:active{
+    background-color: #a6a8f3;
+    color: black;
+}
+.img{
+    margin-left: 150px;
+    margin-top: 70px;
+    border-radius: 40px;
+}
+.title-div{
+    font-size: 46px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 500px;
+    padding-top: 50px;
+}
+.bumbelbee,
+.prime{
+    height: 300px;
+    display: inline-block;
+    border: solid;
+    width: 200px;
+    border-radius: 30px;
+}
+.bumbelbee-img,
+.prime-img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
